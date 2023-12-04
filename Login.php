@@ -3,7 +3,7 @@ session_start();
 
 if(isset($_SESSION['Login'])) {
     if($_SESSION['Login'] === true) {
-        header("Location: Home.php");
+        header("Location: Index.php");
     }
 }
 

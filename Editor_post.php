@@ -10,7 +10,7 @@ if(isset($_GET['pid'])){
    
 
     if($conn->query($stmt) === true) {
-        header("Location: Home.php");
+        header("Location: Index.php");
     }else {
         echo "There Was An Error!";
     }

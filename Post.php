@@ -56,7 +56,7 @@ if (!isset($_SESSION['Login'])) {
     </div>
     <div class="flex w-full justify-center items-center p-5 ">
         <div class="w-[80%] bg-[#242526] rounded-lg shadow-lg py-4">
-            <form action="Home.php" method="POST" class="flex flex-col">
+            <form action="Index.php" method="POST" class="flex flex-col">
                 <div class="text-2xl text-white font-bold text-center pb-4 border-b">
                     Creat Post
                 </div>

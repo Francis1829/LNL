@@ -41,7 +41,7 @@ if(isset($_GET['m'])) {
 
                 if($result->num_rows > 0) {
                     $_SESSION['Login'] = true;
-                    header("Location: Home.php");
+                    header("Location: Index.php");
                 } else {
                     echo "<div class='flex h-screen justify-center items-center font-semibold text-xl'>";
                 echo "<div class='w-[600px] h-[400px] border-2 bg-red-200 rounded-lg flex justify-center items-center'> Invalid username or Password! </div>";
